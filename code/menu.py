@@ -29,8 +29,8 @@ class Menu:
 
         while True:
             self.window.blit(self.surf, self.rect)  # Desenha o fundo
-            self.menu_text(50, "Mountain", COLOR_ORANGE, (WIN_WIDTH / 2, 70))
-            self.menu_text(50, "Shooter", COLOR_ORANGE, (WIN_WIDTH / 2, 120))
+            self.menu_text(50, "Mountain", COLOR_WHITE, (WIN_WIDTH / 2, 70))
+            self.menu_text(50, "Shooter", COLOR_WHITE, (WIN_WIDTH / 2, 120))
 
             # Posiciona os itens do menu abaixo do título
             start_y = 180  # Posição inicial dos itens
